@@ -1,6 +1,6 @@
 /* GET 'home' page */
 module.exports.homeList = function(req, res, next) {
-  res.render('locations-list', { title: 'Home', content: 'Welcome to the home page! This is where a list of locations will eventually go. Thanks for visiting!' });
+  res.render('locations-list', { title: 'Loc8r Home', content: 'Welcome to the home page! This is where a list of locations will eventually go. Thanks for visiting!' });
 };
 
 /* GET 'Location info' page */
