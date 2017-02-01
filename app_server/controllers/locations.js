@@ -1,6 +1,6 @@
 /* GET 'home' page */
 module.exports.homeList = function(req, res, next) {
-  res.render('locations-list', { title: 'Loc8r Home', content: 'Welcome to the home page! This is where a list of locations will eventually go. Thanks for visiting!' });
+  res.render('locations-list', { title: 'Loc8r Home' });
 };
 
 /* GET 'Location info' page */
@@ -10,5 +10,5 @@ module.exports.locationInfo = function(req, res, next) {
 
 /* GET 'Add review' page */
 module.exports.addReview = function(req, res, next) {
-  res.render('index', { title: 'Add review', content: 'This is the placeholder for the page you\'ll use to add a review of a location' });
+  res.render('location-review-form', { title: 'Add review'});
 };
